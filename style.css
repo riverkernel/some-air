@@ -1,0 +1,8 @@
+:root{--bg:#0B0B0F;--fg:#F2F2EC;--mu:#8B8B94;--ac:#D8FF3D;--soft:#26262E}
+@media (prefers-color-scheme: light){:root{--bg:#F1EFE8;--fg:#101014;--mu:#6B6B72;--ac:#FF5A1F;--soft:#D9D6CC}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.55 "Space Grotesk",system-ui,-apple-system,sans-serif;padding:48px 22px 80px}
+main{max-width:640px;margin:0 auto}h1{font:800 clamp(34px,8vw,52px)/1.02 "Unbounded",system-ui,sans-serif;letter-spacing:-.03em;margin:0 0 12px}
+h2{font:700 20px/1.2 "Unbounded",system-ui,sans-serif;letter-spacing:-.02em;margin:36px 0 8px}
+.eyebrow{font:500 12px/1.2 "Space Grotesk",system-ui,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--mu);margin-bottom:24px}
+p,li{color:var(--mu)}strong{color:var(--fg)}a{color:var(--ac)}hr{border:0;border-top:1px solid var(--soft);margin:32px 0}
+nav a{display:inline-block;margin-right:18px;font:600 12px/1.2 "Space Grotesk",system-ui,sans-serif;letter-spacing:.14em;text-transform:uppercase;text-decoration:none}
