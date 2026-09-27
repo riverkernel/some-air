@@ -6,3 +6,5 @@ h2{font:700 20px/1.2 "Unbounded",system-ui,sans-serif;letter-spacing:-.02em;marg
 .eyebrow{font:500 12px/1.2 "Space Grotesk",system-ui,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--mu);margin-bottom:24px}
 p,li{color:var(--mu)}strong{color:var(--fg)}a{color:var(--ac)}hr{border:0;border-top:1px solid var(--soft);margin:32px 0}
 nav a{display:inline-block;margin-right:18px;font:600 12px/1.2 "Space Grotesk",system-ui,sans-serif;letter-spacing:.14em;text-transform:uppercase;text-decoration:none}
+
+.btn{display:inline-block;padding:14px 22px;background:var(--ac);color:var(--bg)!important;font:700 13px/1.2 "Space Grotesk",system-ui,sans-serif;letter-spacing:.14em;text-transform:uppercase;text-decoration:none}
